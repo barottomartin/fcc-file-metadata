@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FCC File Metadata Microservice</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  </head>
+  <body>
+    <header>
+      <h1>
+        FCC File Metadata Microservice
+      </h1>
+    </header>
+
+    <main>
+      <p class="lead">
+        Upload a file to see its size in bytes
+      </p>
+      <form action="/metadata" method="post" enctype="multipart/form-data" style="margin-bottom: 30px;">
+        <input type="file" name="file">
+        <br>
+        <input type="submit">
+      </form>
+    </main>
+
+    <footer>
+      <p>
+        <a href="https://glitch.com">
+          Remix this in Glitch
+        </a>
+      </p>
+      <p>
+        <a href="https://github.com/barottomartin/fcc-image-search">
+          Source code
+        </a>
+      </p>
+    </footer>
+  </body>
+</html>
