@@ -1,0 +1,26 @@
+{
+  "name": "fcc-file-metadata",
+  "version": "0.0.1",
+  "description": "FCC File Metadata Microservice Challenge",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.15.3",
+    "multer": "^1.3.0"
+  },
+  "engines": {
+    "node": "8.1.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/barottomartin/fcc-file-metadata"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
